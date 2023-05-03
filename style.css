@@ -1,0 +1,28 @@
+body {
+    background-color: tan;
+    margin: 0;
+}
+h1 {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#highlight {
+    background-color: #0f606d;
+    display: inline-block;
+}
+.smaller {
+    font-size: 1.3em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+h2 {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
