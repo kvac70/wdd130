@@ -1,0 +1,18 @@
+.section
+{
+    height: 350px;
+    background: gray;
+    color: purple;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#Tea
+{
+    padding: 15px;
+    float: right;
+}
+h1
+{
+    color: orange;
+}
