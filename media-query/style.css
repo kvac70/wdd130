@@ -1,0 +1,21 @@
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+}
+
+div section:nth-of-type(2) {
+    background-color: gray;
+}
+
+@media screen and (max-width: 900px) {
+    div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div {
+        grid-template-columns: 1fr;
+    }
+}
