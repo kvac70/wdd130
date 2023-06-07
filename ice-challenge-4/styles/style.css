@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.input {
+    grid-column: 2/3;
+}
+.glasses {
+    grid-column: 1/2;
+    min-height: 100%;
+    max-width: 300px;
+}
