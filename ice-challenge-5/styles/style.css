@@ -1,0 +1,35 @@
+body{
+    display: grid-row;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+imag
+
+.bottomgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.read {
+    grid-column: 1/2;
+}
+
+.read1 {
+    grid-column: 1/2;
+}
+
+.views {
+    grid-column: 2/3;
+}
+
+.views1 {
+    grid-column: 2/3;
+}
+
+.comments {
+    grid-column: 3/4;
+}
+.comments1 {
+    grid-column: 3/4;
+}
