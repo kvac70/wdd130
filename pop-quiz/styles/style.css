@@ -1,0 +1,19 @@
+body {
+    background-color: blue;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    size: 470px;
+    margin: 0 auto;
+}
+.photo {
+    grid-column: 1/2;
+}
+.text {
+    grid-column: 2/3;
+    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 23px;
+    background-color: white;
+}
