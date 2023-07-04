@@ -1,0 +1,63 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 75%;
+    background-color: yellow;
+}
+#career_cluster {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(75, 58, 42);
+}
+nav {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.logo {
+    padding-top: 5px;
+    grid-column: 1/2;
+    width: 80px;
+}
+.options {
+    grid-column: 1/2;
+    padding: 30px;
+}
+.finding {
+    grid-column: 2/3;
+    padding: 30px;
+}
+.plan {
+    grid-column: 3/4;
+    padding: 30px;
+}
+#bookmark {
+    background-color: rgb(141, 104, 243);
+}
+.bookmark-msg {
+    text-align: center;
+}
+.bookmark-box {
+    text-align: center;
+    padding-bottom: 45px;
+}
+main {
+    text-align: center;
+    color: rgb(239, 57, 175);
+}
+.picture-square {
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:yellow;
+}
+.citations {
+    grid-column: 2/3;
+    text-align: center;
+}
+
