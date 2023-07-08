@@ -14,6 +14,7 @@ nav {
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
 }
 .logo {
     padding-top: 5px;
@@ -35,12 +36,17 @@ nav {
 #bookmark {
     background-color: rgb(141, 104, 243);
 }
+
 .bookmark-msg {
     text-align: center;
 }
 .bookmark-box {
     text-align: center;
     padding-bottom: 45px;
+}
+.bookmark-box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 main {
     text-align: center;
@@ -59,5 +65,27 @@ footer {
 .citations {
     grid-column: 2/3;
     text-align: center;
+}
+.bookmark-img {
+    width: 500px;
+    grid-column: 1/2;
+    padding: 15px;
+}
+.words2 {
+    grid-column: 1/2;
+    padding-top: 120px;
+}
+.glasses {
+    width: 500px;
+    grid-column: 2/3;
+    padding: 15px;
+}
+.words {
+    padding-top: 90px;
+    color: darkgreen;
+}
+.bookmark-box-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
